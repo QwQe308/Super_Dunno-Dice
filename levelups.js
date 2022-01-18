@@ -123,7 +123,7 @@ _.each(levelup_new_tricks, function(name, index) {
 			LevelUp(DummyPerk());
 			LevelUp(DummyPerk());
 			LevelUp(DummyPerk());
-			LevelUp(FreeMultiplier((index+1)*(index+1)*0.05));
+			LevelUp(FreeMultiplier((index+1)*(index+1)*0.01));
 			
 		}
 		LevelUp(LearnTrick(name));
