@@ -114,7 +114,7 @@ var levelup_new_tricks = [
 ];
 
 _.each(levelup_new_tricks, function(name, index) {
-		var num_pads = Math.round(12 * (index+1)/levelup_new_tricks.length)
+		var num_pads = Math.round(8 * (index+1)/levelup_new_tricks.length)
 		for(var i = 0; i < num_pads; i++){
 			LevelUp(DummyPerk());
 			LevelUp(DummyPerk());
